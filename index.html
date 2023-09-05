@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> Please take this short survey! Your feedback is very valuable </p>
+    <section class="form-body">
+        <form id="survey-form">
+            <label id="name-label"> Name <input id="name" type="text" placeholder="John Doe" required></label>
+            <label id="email-label"> Email <input id="email" type="email" placeholder="example@gmail.com"
+                    required></label>
+            <label id="number-label"> Age <span class="smaller-text">(optional)</span><input id="number" type="number" min="1" max="100"
+                    placeholder="Enter Age"></label>
+            <label id="dropdown-label"> What best describes your role? </label>
+            <select id="dropdown">
+                <option value="">Select a role</option>
+                <option value="student">Student</option>
+                <option value="educator">Educator</option>
+                <option value="business">Business</option>
+                <option value="other">Other</option>
+            </select>
+            <label> Would you recommend us to a friend? </label>
+            <br>
+            <label class="button"><input type="radio" name="recommend" class="button" value="yes"> Yes definetely! </label>
+            <label class="button"><input type="radio" name="recommend" class="button" value="maybe"> Maybe </label>
+            <label class="button"><input type="radio" name="recommend" class="button" value="no"> No </label>
+            <br>
+            <label>What would you like to see improved? <span class="smaller-text">(Check all that apply)<span></label>
+            <br>
+            <label class="button"> <input type="checkbox" value="front-end" class="button"> Front-end Projects </label>
+            <label class="button"> <input type="checkbox" value="back-end" class="button"> Back-end Projects </label>
+            <label class="button"> <input type="checkbox" value="videos" class="button"> Videos </label>
+            <label class="button"> <input type="checkbox" value="open-source" class="button"> Open-Source materials </label>
+            <br> <br>
+            <label id="comments"> Additional Comments <span class="smaller-text">(Optional)</span> <textarea id="comments" name="comments" rows="5" cols="50"></textarea></label>
+            <input type="submit" id="submit">
+        </form>
+    </section>
+</body>
+
+</html>

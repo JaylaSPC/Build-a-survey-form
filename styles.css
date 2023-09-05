@@ -1,0 +1,74 @@
+body {
+    font-family: Tahoma;
+    color: aliceblue;
+    padding: 5px;
+    width: 50%;
+    min-width: 500px;
+    margin: auto;
+    background: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg") rgb(131, 153, 226);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto + 10;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+
+input,
+select,
+textarea {
+    box-sizing: content-box;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    width: 65%;
+    height: 24px;
+}
+
+body,
+input,
+select,
+textarea,
+.form-body {
+    border-radius: 5px;
+}
+
+.button input {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button label {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 18px;
+
+}
+
+.form-body {
+    background-color: rgba(18, 24, 43, 0.767);
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.smaller-text {
+    font-size: 80%;
+}
